@@ -108,7 +108,7 @@ export const TimerControl = (props) => {
         <CircularButton onPress={() => HandleStartEvent(true)} style={styles.WhiteBackground} title="||" styles={styles.timeButtons}></CircularButton>
       </View>
       <View style={styles.ButtonBox}>
-        <CircularButton onPress={() => HandleTime(1)} title="15" styles={styles.timeButtons}></CircularButton>
+        <CircularButton onPress={() => HandleTime(10)} title="15" styles={styles.timeButtons}></CircularButton>
         <CircularButton onPress={() => HandleTime(20)} title="20" styles={styles.timeButtons}></CircularButton>
         <CircularButton onPress={() => HandleTime(30)} title="30" styles={styles.timeButtons}></CircularButton>
       </View>
